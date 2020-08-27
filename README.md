@@ -1,2 +1,2 @@
 # fileSharing
-a file sharing web application
+This is a file sharing web application.
