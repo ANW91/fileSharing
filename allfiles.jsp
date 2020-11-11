@@ -72,7 +72,7 @@
 					Map<String, List<String>> files = new HashMap<>();
 					try{
 					Class.forName("com.mysql.jdbc.Driver");
-					Connection con = DriverManager.getConnection("jdbc:mysql://192.168.1.213:3306/filesharing","admin","SPP000cde");
+					Connection con = DriverManager.getConnection("jdbc:mysql://proverb.page/filesharing","username","password"); //username and password removed from github version
 					PreparedStatement ps = con.prepareStatement("select * from files");
 					ResultSet rs =ps.executeQuery();
 					while(rs.next())
