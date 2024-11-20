@@ -68,7 +68,7 @@ public class FileUploadServlet extends HttpServlet {
 				Class.forName("com.mysql.jdbc.Driver");
 				
 				Connection con = DriverManager.getConnection
-							("jdbc:mysql://192.168.1.213:3306/filesharing","admin","SPP000cde");
+							("jdbc:mysql://192.168.1.213:3306/filesharing","admin","PlaceholderPassword");
 
 				PreparedStatement ps = con.prepareStatement
 							("insert into files (UserID, Filename, Personal) values (?,?,?)");
